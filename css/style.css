@@ -1,0 +1,105 @@
+:root{
+--background-grey: #2F303A;
+--link-color-nav: rgba(33, 33, 33, 1);
+--contact-header-color:rgba(117, 117, 117, 1);
+--blue:rgba(33, 150, 243, 1);
+}
+
+body{ font-family: Roboto;}
+ul {list-style-type: none;}
+
+.nav-link-current{
+        color: #0060B6;
+        text-decoration: none;
+    }
+
+.contact-header {
+    color: var(--contact-header-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+
+.contact-header:hover    {
+        color: var(--blue);
+    }
+
+.contact-header:focus {
+        counter-reset: var(--blue);
+    }
+
+
+.section1{background-color: var(--background-grey);}
+ 
+.section1-title {
+color: white; 
+text-align: center;
+font-size: 44px;
+font-weight: 900;
+line-height: 1.36;
+/* 136.364% */
+letter-spacing: 2.64px;
+text-transform: uppercase; }
+    
+        .section1-button {
+            color: white;
+            font-size: 16px;
+            line-height: 1.87;
+            background-color: var(--main-blue);
+            width: 200px;
+            height: 50px;
+            flex-shrink: 0;
+            border-radius: 4px;
+            box-shadow: 0px 4px 4px 0px;
+        }
+    
+        .first-section-button:hover {
+            background-color: #188CE8;
+            color: white;
+            cursor: pointer;
+        }
+    
+        .first-section-button:focus {
+            background-color: #188CE8;
+            color: white;
+            box-shadow: 0px 4px 4px 0px #00000026;
+        }
+
+.loggo-header {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.193;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+ .loggo-footer {
+     font-family: Raleway;
+     font-size: 26px;
+     font-weight: 700;
+     line-height: 1.193;
+     letter-spacing: 0.03em;
+     text-align: left;
+ }
+
+ /* .global-header .loggo-header {
+    var(--blue)
+}
+
+.global-footer {
+    background-color: rgba(47, 48, 58, 1);
+}
+
+.global-footer .adress {
+    font-style: normal;
+}
+
+.global-header .main-navigation a:link,
+.global-header .main-navigation a:visited {
+    color: var(--link-color-nav);
+}
+
+.global-header .main-navigation .contact-header a:link .global-header .main-navigation .contact-header a:visited {
+    color: var(--mail_tel-color)
+} */
